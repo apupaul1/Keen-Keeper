@@ -21,7 +21,7 @@ const getFriends = async () => {
     return data;
   } catch (error) {
     console.log(error);
-    return []
+    return [];
   }
 };
 
@@ -34,12 +34,12 @@ const FriendDetailsPage = async ({ params }: FriendDetailsPageProps) => {
     (friend: Friend) => friend.id === Number(id),
   );
 
-  if(!friend){
-    notFound()
-  }
+  if (!friend) {
+    notFound();
+  } 
 
   const statusColorMap: Record<TStatus, string> = {
-    "overdue": "text-red-600 bg-red-100",
+    overdue: "text-red-600 bg-red-100",
     "almost due": "text-yellow-600 bg-yellow-100",
     "on-track": "text-green-600 bg-green-100",
   };
@@ -121,7 +121,9 @@ const FriendDetailsPage = async ({ params }: FriendDetailsPageProps) => {
             <h1 className="text-[#244D3F] font-semibold text-xl">
               Relationship Goal
             </h1>
-            <button className="btn bg-[#F8FAFC] text-[15px] btn-sm">Edit</button>
+            <button className="btn bg-[#F8FAFC] text-[15px] btn-sm">
+              Edit
+            </button>
           </div>
           <p className="text-[#64748B] mt-4">
             Connect every{" "}
