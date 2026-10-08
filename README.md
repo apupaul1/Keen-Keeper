@@ -22,7 +22,7 @@ Users can manage friend information, track interactions, set relationship goals,
 - **React Icons**
 - **React Hot Toast**
 
-## LIVE URL : `http://localhost:3000`
+## LIVE URL : `keen-keeper-amber-five.vercel.app`
 
 ## 🚀 Getting Started
 
