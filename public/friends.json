@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "name": "Marcus Vance",
+        "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
+        "email": "marcus.vance@example.com",
+        "days_since_contact": 18,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "tech",
+            "mentor"
+        ],
+        "bio": "Former lab partner from university. Currently leading an infra team.",
+        "goal": 14,
+        "next_due_date": "2026-09-20"
+    },
+    {
+        "id": 2,
+        "name": "Elena Rostova",
+        "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80",
+        "email": "elena.rostova@example.com",
+        "days_since_contact": 4,
+        "status": "on-track",
+        "tags": [
+            "close friend",
+            "design"
+        ],
+        "bio": "Product designer in Berlin. We grab coffee whenever she visits town.",
+        "goal": 10,
+        "next_due_date": "2026-10-10"
+    },
+    {
+        "id": 3,
+        "name": "David Kim",
+        "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
+        "email": "david.kim@example.com",
+        "days_since_contact": 31,
+        "status": "overdue",
+        "tags": [
+            "high school",
+            "running"
+        ],
+        "bio": "Training buddy for half-marathons. Reconnect on marathon schedules.",
+        "goal": 21,
+        "next_due_date": "2026-09-24"
+    },
+    {
+        "id": 4,
+        "name": "Sophia Morales",
+        "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80",
+        "email": "sophia.morales@example.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "co-worker",
+            "marketing"
+        ],
+        "bio": "Co-worked at agency back in 2022. Shared love for indie bookstore crawls.",
+        "goal": 7,
+        "next_due_date": "2026-10-09"
+    },
+    {
+        "id": 5,
+        "name": "Tariq Al-Mansoor",
+        "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+        "email": "tariq.mansoor@example.com",
+        "days_since_contact": 45,
+        "status": "almost due",
+        "tags": [
+            "investor",
+            "advisory"
+        ],
+        "bio": "Angel investor met at Demo Day. Send quarterly ecosystem updates.",
+        "goal": 60,
+        "next_due_date": "2026-10-19"
+    },
+    {
+        "id": 6,
+        "name": "Chloe Dupont",
+        "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80",
+        "email": "chloe.dupont@example.com",
+        "days_since_contact": 11,
+        "status": "almost due",
+        "tags": [
+            "roommate",
+            "close friend"
+        ],
+        "bio": "Former flatmate in Lyon. Shares favorite French culinary recipes.",
+        "goal": 14,
+        "next_due_date": "2026-10-07"
+    },
+    {
+        "id": 7,
+        "name": "Arjun Patel",
+        "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+        "email": "arjun.patel@example.com",
+        "days_since_contact": 28,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "hiking",
+            "travel"
+        ],
+        "bio": "Backpacked through Peru together during senior year spring break.",
+        "goal": 20,
+        "next_due_date": "2026-09-26"
+    },
+    {
+        "id": 8,
+        "name": "Naomi Chen",
+        "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80",
+        "email": "naomi.chen@example.com",
+        "days_since_contact": 1,
+        "status": "on-track",
+        "tags": [
+            "collaborator",
+            "open-source"
+        ],
+        "bio": "Maintainer of the CLI data tools we use. Pair programmer partner.",
+        "goal": 7,
+        "next_due_date": "2026-10-10"
+    },
+    {
+        "id": 9,
+        "name": "Liam Gallagher",
+        "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80",
+        "email": "liam.g@example.com",
+        "days_since_contact": 19,
+        "status": "almost due",
+        "tags": [
+            "founder",
+            "network"
+        ],
+        "bio": "Met during YC alumni meetup. Scaling a logistics platform in Dublin.",
+        "goal": 21,
+        "next_due_date": "2026-10-06"
+    },
+    {
+        "id": 10,
+        "name": "Amina Touré",
+        "picture": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=500&q=80",
+        "email": "amina.toure@example.com",
+        "days_since_contact": 6,
+        "status": "on-track",
+        "tags": [
+            "close friend",
+            "climbing"
+        ],
+        "bio": "Regular bouldering partner. Keeps tabs on local competitions.",
+        "goal": 14,
+        "next_due_date": "2026-10-12"
+    },
+    {
+        "id": 11,
+        "name": "Kenji Takahashi",
+        "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+        "email": "kenji.takahashi@example.com",
+        "days_since_contact": 35,
+        "status": "overdue",
+        "tags": [
+            "photography",
+            "travel"
+        ],
+        "bio": "Met during a street photography workshop in Tokyo. Trades film tips.",
+        "goal": 30,
+        "next_due_date": "2026-09-29"
+    },
+    {
+        "id": 12,
+        "name": "Zoe Bennett",
+        "picture": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80",
+        "email": "zoe.bennett@example.com",
+        "days_since_contact": 55,
+        "status": "almost due",
+        "tags": [
+            "freelance",
+            "copywriting"
+        ],
+        "bio": "Brand strategist. Periodic exchanges on contracts and client projects.",
+        "goal": 60,
+        "next_due_date": "2026-10-09"
+    }
+]
