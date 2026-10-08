@@ -12,8 +12,7 @@ export interface FriendDetailsPageProps {
 
 const getFriends = async () => {
   try {
-    const res = await fetch("http://localhost:3000/friends.json");
-
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/friends.json`);
     if (!res.ok) {
       throw new Error("Unable to fetch");
     }
@@ -36,7 +35,7 @@ const FriendDetailsPage = async ({ params }: FriendDetailsPageProps) => {
 
   if (!friend) {
     notFound();
-  } 
+  }
 
   const statusColorMap: Record<TStatus, string> = {
     overdue: "text-red-600 bg-red-100",
