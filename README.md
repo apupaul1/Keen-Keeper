@@ -22,7 +22,7 @@ Users can manage friend information, track interactions, set relationship goals,
 - **React Icons**
 - **React Hot Toast**
 
-## LIVE URL : `keen-keeper-amber-five.vercel.app`
+## LIVE URL : `https://keen-keeper-woad-tau.vercel.app`
 
 ## 🚀 Getting Started
 
