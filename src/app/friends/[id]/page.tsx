@@ -4,6 +4,7 @@ import Image from "next/image";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { BsArchive } from "react-icons/bs";
 import { RiDeleteBin5Line } from "react-icons/ri";
+import { notFound } from "next/navigation";
 
 export interface FriendDetailsPageProps {
   params: Promise<{ id: string }>;
@@ -20,6 +21,7 @@ const getFriends = async () => {
     return data;
   } catch (error) {
     console.log(error);
+    return []
   }
 };
 
@@ -32,8 +34,12 @@ const FriendDetailsPage = async ({ params }: FriendDetailsPageProps) => {
     (friend: Friend) => friend.id === Number(id),
   );
 
+  if(!friend){
+    notFound()
+  }
+
   const statusColorMap: Record<TStatus, string> = {
-    overdue: "text-red-600 bg-red-100",
+    "overdue": "text-red-600 bg-red-100",
     "almost due": "text-yellow-600 bg-yellow-100",
     "on-track": "text-green-600 bg-green-100",
   };
